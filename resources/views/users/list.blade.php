@@ -13,7 +13,7 @@
                     <div class="col-12 col-md-12">
                         <div class="row">
                             <div class="col-12 col-md-4 p-0">
-                                <a class="btn btn-success mb-2" href="">Create</a>
+                                <a class="btn btn-success mb-2" href="{{route('users.create')}}">Create</a>
                             </div>
                             <div class="col-12 col-md-8">
                                 <form class="form-inline my-2 my-lg-0">
@@ -53,7 +53,7 @@
                                     @if(\Illuminate\Support\Facades\Auth::user()->id !== $user->id)
                                         <a href="{{ route('users.update', ['id' => $user->id]) }}"
                                            class="btn btn-primary">Edit</a>
-                                        <a href="" class="btn btn-danger">Delete</a>
+                                        <a href="{{ route('users.delete', ['id' => $user->id]) }}" class="btn btn-danger">Delete</a>
                                     @endif
                                 </td>
 

@@ -25,7 +25,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label >Desc</label>
+                        <label >Description</label>
                         <input type="text" name="desc" value=""  class="form-control">
                     </div>
 

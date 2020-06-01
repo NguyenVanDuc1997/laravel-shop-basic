@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <h1 class="mt-4">Products</h1>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+            <li class="breadcrumb-item"><a href="{{route('products.list')}}">Product List</a></li>
             <li class="breadcrumb-item active">Products</li>
         </ol>
         <div class="card mb-4">
@@ -32,7 +32,7 @@
                             <th>STT</th>
                             <th>Name</th>
                             <th>Image</th>
-                            <th>Desc</th>
+                            <th>Description</th>
                             <th>Price</th>
                             <th>Category</th>
                             <th></th>

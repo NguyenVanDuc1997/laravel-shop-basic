@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e0b09f-3fea-4469-98bc-fda8d17a24a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/core/menu-left.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/core/menu-left.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +144,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson_5/manage-customer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -150,7 +152,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -183,7 +185,9 @@
       <workItem from="1590631631192" duration="6799000" />
       <workItem from="1590641161309" duration="1612000" />
       <workItem from="1590715297838" duration="720000" />
-      <workItem from="1590725843684" duration="3080000" />
+      <workItem from="1590725843684" duration="7269000" />
+      <workItem from="1590973601086" duration="1089000" />
+      <workItem from="1591031286183" duration="7634000" />
     </task>
     <servers />
   </component>
@@ -199,14 +203,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="333" y="104" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1590373075813" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1590735482398">
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1590976469491">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590735482398" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590976469491" />
     <state x="786" y="448" width="338" height="217" key="Github.ShareDialog" timestamp="1590735772102">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="786" y="448" width="338" height="217" key="Github.ShareDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1590735772102" />
+    <state x="612" y="240" width="685" height="634" key="Github.UntrackedFilesDialog" timestamp="1590735778050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="612" y="240" width="685" height="634" key="Github.UntrackedFilesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1590735778050" />
     <state x="387" y="211" key="NewPhpClassDialog" timestamp="1590372538851">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -216,15 +224,17 @@
     </state>
     <state x="472" y="360" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1590638320760" />
     <state x="629" y="432" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590463364675" />
-    <state x="0" y="27" width="1022" height="737" key="SettingsEditor" timestamp="1590726879493">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="2340" y="101" width="1022" height="737" key="SettingsEditor" timestamp="1591031768827">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590545364747" />
+    <state x="2340" y="101" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591031768827" />
     <state x="0" y="27" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1590726879493" />
-    <state x="222" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1590025630303">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="296" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1590973600984">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="222" y="207" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1590025630303" />
+    <state x="296" y="269" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1590973600984" />
     <state x="289" y="0" width="1340" height="1080" key="search.everywhere.popup" timestamp="1590463478877">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

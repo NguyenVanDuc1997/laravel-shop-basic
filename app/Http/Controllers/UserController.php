@@ -6,6 +6,7 @@ use App\Http\Services\UserService;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
@@ -23,26 +24,30 @@ class UserController extends Controller
         return view('users.list', compact('users'));
     }
 
-    public function delete($id) {
+    public function delete($id)
+    {
         $user = $this->userService->findById($id);
         $user->delete();
         toastr()->success('Data has been deleted successfully!');
         return redirect()->route('users.list');
     }
 
-    public function showFormChangePassword($id) {
+    public function showFormChangePassword($id)
+    {
         $user = $this->userService->findById($id);
         return view('users.change-password', compact('user'));
     }
 
-    public function changePassword(Request $request, $id)  {
+    public function changePassword(Request $request, $id)
+    {
         $user = $this->userService->findById($id);
         $this->userService->changePassword($user, $request);
         session()->flash('success', 'change password success!');
         return redirect()->route('users.list');
     }
 
-    public function update($id) {
+    public function update($id)
+    {
         $user = $this->userService->findById($id);
         if (Auth::user()->id == $user->id) {
             abort(403);
@@ -50,7 +55,8 @@ class UserController extends Controller
         return view('users.edit', compact('user'));
     }
 
-    public function edit(Request $request, $id) {
+    public function edit(Request $request, $id)
+    {
         $user = $this->userService->findById($id);
         if (Auth::user()->id == $user->id) {
             abort(403);
@@ -61,7 +67,21 @@ class UserController extends Controller
         return redirect()->route('users.list');
     }
 
-    public function create(){
-        return view('users.create');
+    public function create()
+    {
+        $roles = DB::select('select role from users group by role');
+        return view('users.create', compact('roles'));
+    }
+
+
+    public function store(Request $request)
+    {
+        $user = new User();
+        $user->name = $request->input('name');
+        $user->username = $request->input('email');
+        $user->password = Hash::make($request->input('password'));
+        $user->role =$request->role;
+        $user->save();
+        return redirect()->route('users.list');
     }
 }
